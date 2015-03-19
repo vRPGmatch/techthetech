@@ -1,0 +1,35 @@
+/* Sticky footer styles
+   -------------------------------------------------- */
+html {
+		position: relative;
+		min-height: 100%;
+}
+body {
+		/* Margin bottom by footer height */
+		margin-bottom: 0px;
+		background: url('/background/Cityscape_00.png');
+		background-size: 10em 10em;
+		background-repeat:repeat;
+		display: compact;
+		color: white;
+	    text-shadow:
+			   -1px -1px 0 #000,  
+			   1px -1px 0 #000,
+			   -1px 1px 0 #000,
+			   1px 1px 0 #000;
+}
+
+/* Custom page CSS
+   -------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+.container {
+		width: auto;
+		max-width: 680px;
+		padding: 0 15px;
+}
+.container .text-muted {
+margin: 0px 0;
+position: absolute;
+bottom: 0;
+}

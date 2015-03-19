@@ -1,0 +1,38 @@
+/* Sticky footer styles
+   -------------------------------------------------- */
+
+html {
+		position: relative;
+		min-height: 100%;
+}
+body {
+		/* Margin bottom by footer height */
+		margin-bottom: 0px;
+		display: compact;
+		background: url('/background/proby.gif');
+		background-repeat:no-repeat;
+		background-position: right top;
+		margin-right: 200px;
+		background-color: #80639B;
+		color: white;
+	    text-shadow:
+			   -1px -1px 0 #000,  
+			   1px -1px 0 #000,
+			   -1px 1px 0 #000,
+			   1px 1px 0 #000;
+}
+
+/* Custom page CSS
+   -------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+.container {
+		width: auto;
+		max-width: 680px;
+		padding: 0 15px;
+}
+.container .text-muted {
+margin: 0px 0;
+position: absolute;
+bottom: 0;
+}
